@@ -1,0 +1,382 @@
+/*START 1pageMes*/
+#mainNav{
+	margin-top: auto;
+	width: auto;
+}
+#pageMes{
+	position: relative;
+	width: 82.430453%;
+	margin: 0 auto;
+	padding-top: 34px;
+	height: 676px;
+}
+/*s标题*/
+.titleCon{
+	margin-top: 83px;
+	width: 100%;
+	position: relative;
+}
+.titleCon p span{
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 62px;
+	margin-bottom: 60px;
+}
+.titleCon p span:first-of-type{
+	display: inline-block;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid #353535;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+/*e标题*/
+#pageImg1{
+	position: absolute;
+	left: 43px;
+	top: 0;
+}
+#pageTower1{
+	position: absolute;
+	right: 132px;
+	bottom: 0;
+}
+/*END pageMes*/
+
+
+
+/*START 2pageCheckWrap*/
+#pageCheckWrap{
+	width: 100%;
+	height: 637px;
+	margin-bottom: 73px;
+	background: #f7f8f8;
+	overflow: hidden;
+}
+#pageCheckImg{
+	position: relative;
+}
+#pageCheck{
+	position: relative;
+	width: 82.430453%;
+	margin: 0 auto;
+}
+#pageCheck .titleCon{
+	margin-top: 0;
+	padding-top: 80px;
+}
+#pageImg2_1{
+	position: absolute;
+}
+#pageImg2_2{
+	position: absolute;
+	margin-left: 296px;
+}
+#pageTower2{
+	position: absolute;
+	right: 57px;
+	top: 0;
+}
+/*END pageCheckWrap*/
+
+
+
+/*START 3pageComposite*/
+#pageComposite{
+	position: relative;
+	width: 82.430453%;
+	height: 597px;
+	padding-top: 113px;
+	margin: 0 auto;
+}
+#pageComposite #pageTower3{
+	position: absolute;
+	left: 195px;
+}
+#pageComposite .titleCon{
+	position: absolute;
+    width: 573px;
+    right: 21px;
+}
+
+#pageImg3_1{
+	position: absolute;
+}
+#pageImg3_2{
+    position: absolute;
+    margin-left: 296px;
+}
+/*END pageComposite*/
+
+
+/*START 4pageDeviceWrap*/
+#pageDeviceWrap{
+	width: 100%;
+	/*background: #f7f8f8;*/
+	background: #ccc;
+}
+#pageDevice{
+	position: relative;
+	width: 82.430453%;
+	height: 710px;
+	margin: 0 auto;
+}
+#pageDevice .titleCon{
+    margin-top: 0;
+    padding-top: 124px;
+    width: 278px;
+    left: 483px;
+}
+#pageTower4,#pageImg4_1,#pageImg4_2,#pageTower5{
+	position: absolute;
+}
+#pageImg4_2{
+    margin-top: 147px;
+}
+#pageTower4{
+	left: 0;
+}
+#pageTower5{
+	right: 77px;
+	bottom: 0
+}
+/*END pageDeviceWrap*/
+
+
+/*START 5pageConsult*/
+#pageConsult{
+	position: relative;
+	width: 82.430453%;
+	height: 710px;
+	margin: 0 auto;
+}
+#pageConsult .titleCon{
+	margin-top: 0;
+	padding-top: 120px;
+}
+#pageTower6{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+/*END pageConsult*/
+
+
+/*START 底部*/
+#footer{
+	margin-top: 120px;
+}
+.copyright img{
+	width: auto;
+}
+/*END 底部*/
+
+img{
+	width: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+	#pageImg1{
+		left: 0;
+	}
+	#pageImg2_2{
+		margin-left: auto;
+	    margin-top: 185px;		
+	}
+	#pageImg3_2{
+		margin-left: auto;
+    	margin-top: 175px;
+	}
+	#pageComposite .titleCon{
+		left: 350px;
+		right: auto;
+		width: 200px
+	}
+
+	#pageTower1{
+		right: 107px;
+		width: 100px;
+	}
+	#pageTower2{
+		width: 270px;
+	}
+	#pageTower4{
+		width: 300px;
+	}
+	#pageComposite #pageTower3{
+		left: 131px;
+    	bottom: -1px;
+    	width: 107px;
+	}
+	#pageTower5{
+		width: 100px;
+		right: 48px;
+	}
+	#pageTower6{
+		right: 0;
+    	width: 273px;
+	}
+	#pageDevice .titleCon{
+		width: 300px;
+    	left: 300px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	#pageImg1{
+		width: 250px;
+	}
+	#pageImg2_1,#pageImg2_2{
+		width: 200px;
+	}
+	#pageImg2_2{
+		margin-top: 140px;
+	}
+	#pageImg3_1,#pageImg3_2{
+		width: 200px;
+	}
+	#pageImg3_2{
+		margin-top: 140px;
+	}
+	#pageDevice .titleCon{
+		padding-top: 0;
+	}
+	div#pageImg4_1, div#pageImg4_2{
+		width: 200px;
+	}
+	#pageImg4_2{
+		margin-top: 110px;
+	}
+	#pageConsult .titleCon{
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.titleCon{
+		margin-top: 0;
+	}
+	.titleCon p span{
+		font-size: 12px;
+	}
+	#pageMes{
+		height: 300px;
+	}
+	#pageCheckWrap{
+		height: 300px;
+		margin-bottom: 0;
+	}
+	#pageImg1{
+		width: 145px;
+	}
+	#pageTower1 {
+	    right: 25px;
+	    width: 50px;
+	}
+	#pageImg2_1, #pageImg2_2{
+		width: 150px;
+	}
+	#pageImg2_2 {
+	    margin-top: 110px;
+	}
+	#pageTower2 {
+	    width: 135px;
+	    right: 0;
+	}
+	#pageComposite #pageTower3{
+		left: 61px;
+		width: 50px;
+	}
+	#pageTower4{
+		width: 140px;
+	}
+	#pageComposite .titleCon{
+		left: 168px;
+		width: 115px;
+	}
+	#pageImg3_1, #pageImg3_2{
+		width: 160px;
+	}
+	#pageImg3_2 {
+	    margin-top: 110px;
+	}
+	#pageComposite{
+		height: 300px;
+	}
+	#pageComposite{
+		padding-top: 0;
+	}
+
+	#pageTower5{
+		width: 54px;
+		right: 27px;
+	}
+	#pageTower6{
+		width: 150px;
+	}
+	#pageDevice{
+		height: 400px;
+	}
+	#pageDevice .titleCon{
+		width: 150px;
+		left: 170px;
+	}
+	#pageConsult{
+		height: 200px;
+	}
+	#pageCheck .titleCon{
+		padding-top: 0;
+	}
+	div#pageImg4_1, div#pageImg4_2{
+		width: 160px;
+	}
+	#pageImg4_2{
+		margin-top: 84px;
+	}
+	/*span*/
+	.titleCon p span{
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#pageImg1{
+		width: 132px;
+	}
+	#pageImg2_1, #pageImg2_2{
+		width: 120px;
+	}
+	#pageImg2_2{
+		margin-top: 85px;
+	}
+	/*#pageTower1{
+		right: 19px;
+	}*/
+	#pageTower2{
+		right: 0;
+	}
+	#pageComposite .titleCon{
+		left: 135px;
+	}
+	#pageImg3_1, #pageImg3_2{
+		width: 110px;
+	}
+	#pageImg3_2{
+		margin-top: 85px;
+	}
+	#pageDevice .titleCon{
+		left: 115px;
+	}
+	div#pageImg4_1, div#pageImg4_2{
+		width: 120px;
+	}
+
+	#footer .copyright span{
+		width: 190px;
+	}
+}

@@ -1,0 +1,113 @@
+
+#mainNav{
+	width: auto;
+}
+#footer{
+	width: auto;
+	margin-top: 123px;
+}
+#trainWrap{
+	width: 82.430453%;
+	margin: 0 auto;
+}
+
+
+/*START trainClass*/
+#trainClass{
+	text-align: center;
+	margin-top: 76px;
+}
+#trainClass>div img{
+	/*width: 100%;*/
+}
+#trainClass span{
+	display: block;
+	color: #907427;
+	font-size: 2.5em;
+	margin: 29px 0 21px 0;
+}
+#trainClass p{
+	color: #a2a2a2;
+	font-size: 1.2em;
+	margin-bottom: 75px;
+}
+/*END trainClass*/
+
+
+
+/*START contentTable*/
+#contentTable{
+
+}
+.table{
+	width: 100%;
+	margin-bottom: 35px;
+}
+.table td{
+	border: 2px solid #dadada;
+	font-size: 16px;
+}
+.table .tableTd{
+	width: 21%;
+	height: 79px;
+	padding:0 5.173951%;
+	color: #646464;
+	background: #f3f3f3;
+}
+.table tr td:last-of-type{
+	padding:0 7.4933095%;
+	color: #646464;
+}
+.table .tableHead{
+	height: 48px;
+	background: #a2a2a2;
+	border: 2px solid #a2a2a2;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 2.765388%;
+	font-size:1.8em;
+}
+/*END contentTable*/
+
+
+
+/*START connection*/
+#connection{
+	width: 550px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#connection div{
+	color: #353535;
+	float: left;
+}
+#connection .linkMes{
+	margin-top: 27px;
+	margin-left: 23px;
+}
+#connection .linkMes span{
+	font-size: 1.83em;
+	line-height: 34px;
+}
+#connection .linkMes p{
+	font-size: 1.16em;
+}
+/*END connection*/
+
+
+
+
+@media screen and (max-width: 640px){
+	#trainClass>div img {
+	    width: 100%;
+	}
+	#connection{
+		width: 100%;
+	}
+	#connection .linkMes{
+		margin-left: auto;
+	}
+	#footer .copyright span{
+		width: auto;
+	}
+}

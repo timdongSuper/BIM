@@ -1,0 +1,104 @@
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+#wrap{
+	width: 82.430453%;
+	margin: 0 auto;
+}
+#mainNav, #footer{
+	width: auto;
+}
+#mainNav{
+	margin-top: 34px;
+}
+
+
+
+/*START团队介绍*/
+#teamIntroduce{
+	margin-top: 63px;
+}
+#teamIntroduce h2{
+	color: #353535;
+}
+#teacher>p{
+	font-size: 18px;
+	margin: 60px 0 16px 0;
+	color: #353535;
+}
+/*#teacher ul li{*/
+#teamIntroduce ul li{
+	width: 263px;
+	min-height: 493px;
+	border: 1px solid #eae7e0;
+	float: left;
+	margin-right: 15px;
+}
+#teamIntroduce ul li img{
+	width: 100%;
+}
+#teamIntroduce ul li:last-of-type{
+	margin-right: 0;
+}
+/*#teacher ul li .txt{*/
+#teamIntroduce ul li .txt{
+	padding: 22px 19px 0;
+}
+/*#teacher ul li .txt p{*/
+#teamIntroduce ul li .txt p{
+	font-size: 20px;
+	font-weight: bold;
+	color: #353535;
+}
+/*#teacher ul li .txt span{*/
+#teamIntroduce ul li .txt span{
+	display: block;
+	font-size: 14px;
+	color: #353535;
+	margin: 11px 0 22px 0;
+}
+/*#teacher ul li .txt div{*/
+#teamIntroduce ul li .txt div{
+	color: #646464;
+	font-size: 12px;
+	line-height: 15px;
+}
+/*#teacher ul{*/
+#teamIntroduce ul{
+	overflow: hidden;
+}
+/*END团队介绍*/
+
+
+
+/*START 技术顾问*/
+#counselor>p{
+	margin: 57px 0 15px 0;
+	font-size: 18px;
+	color: #353535;
+}
+/*END 技术顾问*/
+
+
+/*底部*/
+#footer{
+	margin-top: 169px;
+}
+
+
+
+@media screen and (max-width: 860px){
+	#teamIntroduce ul li{
+		width: 47.6%;
+		margin-right: 2%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#teamIntroduce ul li{
+		width: 99.64%;
+		margin-bottom: 30px;
+	}
+}

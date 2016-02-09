@@ -1,0 +1,495 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+
+
+#wrap{
+
+}
+
+.currColor{
+	color: #fcc91a !important;
+}
+.currBgColor{
+	width: 100% !important;
+	background: #fcc91a !important;
+}
+
+#header{
+	position: relative;
+	width: 100%;
+}
+#header img:nth-child(1){
+	width: 100%;
+}
+#header img:nth-child(2){
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 32px;
+	bottom: -600px\9;
+	cursor: pointer;
+}
+#header .logo{
+	width: 212px;
+	height: 77px;
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 120px;
+	margin: auto;
+}
+#header .logo span{
+	display: block;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #9c9c9c;
+    letter-spacing: 2px;
+    padding-top: 60px;
+}
+
+
+/*START导航栏*/
+#mainNav{
+	margin: 0 auto;
+    margin-top: 44px;
+    padding: 26px 0;
+    width: 82.430453%;
+    position: relative;
+}
+#mainNav img{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 140px;
+}
+#mainNav .PCBar{
+	position: absolute;
+    font-size: 1.3em;
+    display: inline-table;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+}
+#mainNav .PCBar li{
+	float: left;
+	margin-left: 60px;
+	cursor: pointer;
+}
+#mainNav .PCBar li a{
+	color: #353535;
+}
+#mainNav .PCBar li:hover a{
+	color: #fcc91a;
+}
+#mainNav .PCBar li .bar{
+	width: 15px;
+    height: 2px;
+    margin-bottom: 10px;
+    background: #353535;
+}
+#mainNav .PCBar li:hover .bar{
+	width:100%;
+	background:#fcc91a;
+}
+#mainNav .mobileBar{
+	display: none;
+	position: absolute;
+	top: -15px;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background: url('../images/mobileBar3.png');
+    background-size: 100% 100%;
+}
+#mainNav .mobileBar ul{
+	margin-top: 70px;
+	position: absolute;
+    right: 0px;
+    z-index: 111;
+}
+#mainNav .mobileBar li{
+	display: none;
+	font-size: 2em;
+    padding: 10px 0;
+    background: #fcc91a; 
+    width: 160px;
+    font-weight: bold;
+    text-align: center;
+}
+#mainNav .mobileBar li:hover{
+	background: #fcc91a;
+}
+/*END导航栏*/
+
+
+
+/*START写意BIM概述*/
+#BIMSummary{
+	width: 82.430453%;
+	margin: 0 auto;
+	margin-top: 166px;
+	overflow: hidden;
+	padding-bottom: 148px;
+}
+#BIMSummary .SumLeft{
+	width: 545px;
+	float: left;
+}
+/*#BIMSummary .SumLeft span{*/
+.title{
+	font-size: 2em;
+    font-weight: bold;
+    color: #353535;
+}
+/*#BIMSummary .SumLeft p{*/
+.rail{
+	display: block;
+	margin: 28px 0 51px 0;
+	width: 70px;
+	border: 2.5px solid #fcc91a;
+}
+/*#BIMSummary .SumLeft div{*/
+.text{
+	color: #646464;
+	line-height: 22px;
+    letter-spacing: 1px;
+}
+#BIMSummary .SumRight{
+	float: right;
+	width: 510px;
+}
+#BIMSummary .SumRight img{
+	width: 100%;
+}
+/*END写意BIM概述*/
+
+
+
+/*START BIM项目服务内容*/
+#BIMServe{
+	width: 100%;
+	margin: 0 auto;
+	background: #f7f8f8;
+	padding-bottom: 37px;
+}
+#BIMServe .BIMServeImg{
+	margin: 0 auto;
+	padding-top: 42px;
+	width: 82.430453%;
+	overflow: hidden;
+}
+#BIMServe .BIMServeImg div{
+	width:24.41%;
+	min-height: 417px;
+	float: left;
+	margin-left:0.785476%;
+	background: #fff;
+}
+#BIMServe .BIMServeImg div:nth-of-type(1){
+	margin-left: 0px;
+}
+#BIMServe .BIMServeImg div h3, #BIMServe div span{
+	margin: 0 auto;
+	width: 77.777777%;
+}
+#BIMServe .BIMServeImg div h3{
+	margin-top: 42px;
+	color: #353535;
+}
+#BIMServe .BIMServeImg div span{
+	display:block;
+	margin-top: 20px;
+	letter-spacing: 1px;
+    line-height: 21px;
+	color: #646464;
+}
+#BIMServe .BIMServeImg div img{
+	width: 100%;
+}
+/*#BIMServe .more{*/
+.more{
+	display: block;
+	width: 200px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 76px;
+	border: 2px solid #353535;
+	color: #353535;
+}
+/*#BIMServe .more span{*/
+.more>span{
+	font-size: 1.7em;
+    font-weight: bold;
+}
+/*#BIMServe .more img{*/
+.more img{
+	margin: auto;
+	margin-top: 13px;
+    margin-left: 10px;
+}
+.more:hover{
+	color: #fcc91a;
+	border-color: #fcc91a;
+}
+/*#BIMServe .more a{*/
+/*.more a{
+	color: #353535;
+}*/
+/*END BIM项目服务内容*/
+
+
+
+/*START BIM培训服务*/
+#BIMTrain{
+	width: 100%;
+	overflow: hidden;
+}
+#BIMTrain .banner{
+	margin-bottom: 61px;
+}
+#BIMTrain .banner img{
+	width: 100%;
+}
+.BIMTrainCon{
+	margin: 0 auto;
+	width: 82.430453%;
+}
+#BIMTrain .text{
+	width: 70%;
+	float: left;
+}
+#BIMTrain .more{
+	margin-top: 0;
+}
+.moreRight{
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+}
+/*END BIM培训服务*/
+
+
+
+/*START底部*/
+#footer{
+	width: 82.430453%;
+	margin: 0 auto;
+	margin-top: 322px;
+}
+#footer .footLink{
+	overflow: hidden;
+}
+#footer ul{
+	width: 55px;
+	float: left;
+	margin-right: 98px;
+}
+#footer ul li, #footer ul li a{
+	color: #353535;
+}
+#footer ul li{
+	width: 85px;
+	margin-bottom: 12px;
+}
+#footer ul li:nth-of-type(1){
+	font-weight: bold;
+	margin-bottom: 23px;
+}
+#footer .contact{
+	float: right;
+    text-align: right;
+    color: #353535;
+}
+#footer .contact div{
+	margin-left: 69px;
+	width: 118px;
+	height: 35px;
+	border-radius: 2px;
+	background: #fcc91a;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+}
+#footer .contact div span:nth-of-type(1){
+	display: inline-block;
+	text-align: center;
+	line-height: 18px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #fff;
+	color: #fcc91a;
+	margin-right: 13px;
+}
+#footer .contact p:nth-of-type(1){
+	font-size: 2em;
+    letter-spacing: 1px;
+    margin: 19px 0 13px 0;
+}
+#footer .contact p:nth-of-type(2){
+	font-size: 1em;
+}
+#footer .copyright{
+	position: relative;
+	height: 101px;
+	margin: 0 auto;
+	border-top: 1px solid #c2c2c2;
+	text-align: center;
+	color: #9c9c9c;
+}
+#footer .copyright span{
+	display: inline-block;
+	position: absolute;
+	width: 300px;
+    height: 10px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#footer .copyright div{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #b5b5b5;
+	color: #646464;
+	cursor: pointer;
+}
+#footer .copyright div img{
+	vertical-align: middle;
+	margin-right: 14px;
+}
+/*END底部*/
+
+
+
+@media screen and (max-width: 1360px){
+	#BIMSummary .SumLeft, #BIMSummary .SumRight{
+		width: 100%;
+	}
+	#BIMSummary .SumRight{
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 860px){
+	#BIMServe .BIMServeImg div{
+		width: 49.21%;
+	}
+	#mainNav .PCBar{
+		display: none;
+	}
+	#mainNav .mobileBar{
+		display: block;
+	}
+	#BIMTrain .text, .moreRight{
+		width: 100%;
+	}
+	.moreRight{
+		margin-top: 76px;
+	}
+	#footer{
+		margin-top: 140px;
+	}
+}
+@media screen and (max-width: 640px){
+	#footer .copyright span{
+		width: auto;
+	}
+	#header .logo{
+		width: 170px;
+	}
+	#header .logo span{
+		font-size: 14px;
+		padding-top: 30px;
+	}
+	#footer .contact{
+		float: none;
+		text-align: left;
+	}
+	#footer .contact div{
+		margin-left: 0;
+	}
+	#footer ul{
+		float: none;
+		padding-bottom: 20px;
+	}
+	#footer ul li{
+		margin-left: 15px;
+	}
+	#footer ul li:nth-of-type(1){
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+	#footer .copyright div{
+		top: auto;
+	}
+
+	#BIMServe .BIMServeImg div{
+		width: 100%;
+		margin-top: 40px;
+	}
+	#BIMServe .BIMServeImg div h3{
+		font-size: 2em;
+	}
+
+	#header .logo{
+		width: 118px;
+		left: 50px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#footer .copyright span{
+		width: 140px;
+	}
+	#header .logo{
+		top: 70px;
+	}
+	#header .logo span{
+		padding-top: 0
+	}
+	#mainNav{
+		margin-top: 10px;
+	}
+	#mainNav .mobileBar{
+		top: 0px;
+	    width: 50px;
+	    height: 50px;
+	}
+	#mainNav img{
+		width: 90px;
+	}
+	#BIMSummary{
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+	#mainNav .mobileBar ul{
+		margin-top: 44px;
+	}
+	#mainNav .mobileBar li{
+		padding: 3px 0;
+		font-size: 1.7em;
+	}
+}
