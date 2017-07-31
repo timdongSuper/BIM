@@ -1,0 +1,8 @@
+title: Bim
+description: 写意BIM
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
